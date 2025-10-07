@@ -3,12 +3,12 @@ using namespace std;
 
 int main() {
     int n;
-    cout << "Введіть число: ";
+    cout << " : ";
     cin >> n;
 
-    if (n > 0) cout << "Число додатнє" << endl;
-    else if (n < 0) cout << "Число від’ємне" << endl;
-    else cout << "Число дорівнює нулю" << endl;
+    if (n > 0) cout << " " << endl;
+    else if (n < 0) cout << " ’" << endl;
+    else cout << "  " << endl;
 
     return 0;
 }

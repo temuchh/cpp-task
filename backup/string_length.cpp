@@ -3,9 +3,9 @@
 using namespace std;
 
 int main() {
-    const char* str = ", !";
+    const char* str = "Привіт, світ!";
     int length = strlen(str);
 
-    cout << " : " << length << endl;
+    cout << "Довжина рядка: " << length << endl;
     return 0;
 }

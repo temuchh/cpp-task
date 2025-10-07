@@ -4,11 +4,11 @@ using namespace std;
 
 int main() {
     int num;
-    cout << " : ";
+    cout << "Введіть число: ";
     cin >> num;
 
     string strNum = to_string(num);
-    cout << "   : " << strNum << endl;
+    cout << "Число у вигляді рядка: " << strNum << endl;
 
     return 0;
 }

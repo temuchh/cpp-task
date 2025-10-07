@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int a, b;
-    cout << "  : ";
+    cout << "Введіть два числа: ";
     cin >> a >> b;
 
     if (a > b) swap(a, b);
@@ -13,6 +13,6 @@ int main() {
         if (i % 2 == 0) sum += i;
     }
 
-    cout << "   : " << sum << endl;
+    cout << "Сума всіх парних чисел: " << sum << endl;
     return 0;
 }
